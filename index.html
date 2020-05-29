@@ -3,137 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--здесь меняются пути к файлам стиля-->
+    <!--Здесь меняются пути к файлам стилей-->
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://testdevelopplat.000webhostapp.com/style.css">
-    <!---->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <title>Аргументы и факты</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="nav">
-            <div class="menu">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </div>
-            <div class="logo">
-                <!--картинка логотип аиф-->
-                <img src="img/aiflogo.png" alt="логотип">
-            </div>
-            <div class="title">
-                <!--здесь можно менять текст-->
-                <span>Федеральный АИФ</span>
-            </div>
-            <div class="title">
-                <span>#Остаемсядома</span>
-            </div>
-            <div class="search">
-                <div class="search-icon">
-                    <!--картинка лупы-->
-                    <img src="img/search_ico.svg" alt="">
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <!--Тут меняется заговок-->
+                    <h1>Заголовок</h1>
                 </div>
-                <div class="user-icon">
-                    <!--картинка юзера-->
-                    <img src="img/user_ico.svg" alt="">
+                <div class="header-subtitle">
+                    <!--Тут меняется подзаголовок-->
+                    <span>Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты.</span>
+                </div>
+                <div class="header-link">
+                    <!--Здесь вставляется ссылка и меняется текст кнопки-->
+                    <a href="#">Кнопка</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="about-wrapper">
+            <div class="about-item">
+                <div class="item-img">
+                    <!--Здесь меняются картинки условий-->
+                    <img src="img/ico_doc.png" alt="">
+                </div>
+                <div class="item-title">
+                    <!--Здесь меняется название условия-->
+                    <h3>Условие 1</h3>
+                </div>
+                <div class="item-text">
+                    <!--Здесь меняется текст условия-->
+                    <p>Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты.
+                     Вдали раз взгляд рыбными вершину снова взобравшись. Снова пустился безорфографичный инициал, 
+                     всеми оксмокс дороге ведущими безопасную не вершину страну меня!</p>
+                </div>
+            </div>
+            <div class="about-item">
+                <div class="item-img">
+                    <!--Здесь меняются картинки условий-->
+                    <img src="img/ico_doc.png" alt="">
+                </div>
+                <div class="item-title">
+                    <!--Здесь меняется название условия-->
+                    <h3>Условие 2</h3>
+                </div>
+                <div class="item-text">
+                    <!--Здесь меняется текст условия-->
+                    <p>Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты.
+                     Вдали раз взгляд рыбными вершину снова взобравшись. Снова пустился безорфографичный инициал, 
+                     всеми оксмокс дороге ведущими безопасную не вершину страну меня!</p>
+                </div>
+            </div>
+            <div class="about-item">
+                <div class="item-img">
+                    <!--Здесь меняются картинки условий-->
+                    <img src="img/ico_doc.png" alt="">
+                </div>
+                <div class="item-title">
+                    <!--Здесь меняется название условия-->
+                    <h3>Условие 3</h3>
+                </div>
+                <div class="item-text">
+                    <!--Здесь меняется текст условия-->
+                    <p>Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты.
+                     Вдали раз взгляд рыбными вершину снова взобравшись. Снова пустился безорфографичный инициал, 
+                     всеми оксмокс дороге ведущими безопасную не вершину страну меня!</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="main-content">
-            <div class="data">
-                <!--дата публикации-->
-                <span> 27.05.2020 11:33 </span>
-            </div>
-            <div class="main-title">
-                <!--заголовок публикации-->
-                <h1>Суд обязал Киркорова выплатить долг за ремонт в коттедже</h1>
-            </div>
-            <div class="main-photo">
-                <img src="img/main.jpg" alt="">
-            </div>
-            <div class="main-text">
-                <p class="text">
-            <!--текст публикации меняется здесь-->
-                    Таганский суд Москвы взыскал 2 миллиона 282 тысяч рублей задолженности с певца Филиппа Киркорова за выполненный ремонт в коттедже, сообщает ТАСС.
-
-Иск в отношении артиста выдвинул совладелец компании «Стройхолдинг-Трейд» Пётр Маринин. Изначально исковые требования составляли более 7 миллионов рублей, но суд удовлетворил лишь их часть.
-
-В конце прошлого года Таганский суд Москвы удовлетворил иск латвийского ABLV Bank к Киркорову и постановил выставить на торги его квартиру с начальной стоимостью более 193 миллиона рублей. Также Мосгорсуд постановил взыскать с Киркорова и принадлежащей ему компании более 54 миллионов рублей задолженности, штрафов и процентов по кредиту.
-                </p>
-            </div>
-            <form action="" class="form">
-                <input type="text" placeholder="Укажите ваш e-mail">
-                <button>Подписаться на новости</button>
-            </form>
-        </div>
-        <div class="secondary-content">
-            <div class="new-items">
-                <div class="new-item">
-                   <div class="new-item-img">
-                       <!--здесь меняется картинка новостного блока-->
-                       <img src="img/new1.jpg" alt="">
-                   </div>
-                   <div class="new-text">
-                       <p class="text">
-                           <!--здесь меняется текст новостного блока-->
-                        Парад Гитлера в Москве. На Украине выпустили игру, где побеждают нацисты
-                       </p>
-                   </div>
-                </div>
-                <div class="new-item">
-                    <div class="new-item-img">
-                        <!--здесь меняется картинка новостного блока-->
-                        <img src="img/new2.jpg" alt="">
-                    </div>
-                    <div class="new-text">
-                        <p class="text">
-                            <!--здесь меняется текст новостного блока-->
-                         Секс, обрезание и развод лосося. Как нацисты скрывались от правосудия
-                        </p>
-                    </div>
-                 </div>
-                 <div class="new-item">
-                    <div class="new-item-img">
-                        <!--здесь меняется картинка новостного блока-->
-                        <img src="img/new3.jpg" alt="">
-                    </div>
-                    <div class="new-text">
-                        <p class="text">
-                            <!--здесь меняется текст новостного блока-->
-                            Насильник Басилашвили. Что натворил кумир спортивной Грузии?
-                        </p>
-                    </div>
-                 </div>
-                 <div class="new-item">
-                    <div class="new-item-img">
-                        <!--здесь меняется картинка новостного блока-->
-                        <img src="img/new4.jpg" alt="">
-                    </div>
-                    <div class="new-text">
-                        <p class="text">
-                            <!--здесь меняется текст новостного блока-->
-                         Самые актуальные материалы о COVID-19
-                        </p>
-                    </div>
-                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <footer class="footer">
-                <div class="logo">
-                    <img src="img/aiflogo.png" alt="">
-                </div>
-                <div class="social-block">
-                    <ul>
-                        <li><i class="fab fa-odnoklassniki" aria-hidden="true"></i></li>
-                        <li><i class="fab fa-vk" aria-hidden="true"></i></li>
-                        <li><i class="fab fa-facebook" aria-hidden="true"></i></li>
-                        <li><i class="fab fa-instagram" aria-hidden="true"></i></li>
-                    </ul>
-                </div>
-        </footer>
-    </div>
+    
 </body>
 </html>
